@@ -1,6 +1,7 @@
 ﻿using ApiProdutos.Services.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ApiProdutos.Data.Repositories;
 
 namespace ApiProdutos.Services.Controllers
 {
