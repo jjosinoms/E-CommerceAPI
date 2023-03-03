@@ -8,7 +8,7 @@ namespace ApiProdutos.Data.Entities
 {
     public class Produto
     {
-        private Guid? _idProduto;
+        private Guid _idProduto;
         private string? _nome;
         private string? _descricao;
         private decimal? _preco;
@@ -17,7 +17,7 @@ namespace ApiProdutos.Data.Entities
         private Guid? _idCategoria;
         private Categoria? _categoria;
 
-        public Guid? IdProduto { get => _idProduto; set => _idProduto = value; }
+        public Guid IdProduto { get => _idProduto; set => _idProduto = value; }
         public string? Nome { get => _nome; set => _nome = value; }
         public string? Descricao { get => _descricao; set => _descricao = value; }
         public decimal? Preco { get => _preco; set => _preco = value; }

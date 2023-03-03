@@ -6,7 +6,7 @@ namespace ApiProdutos.Services.Models
     public class ProdutosPutModel
     {
         [Required(ErrorMessage = "Por favor, informe o Id do produto desejado.")]
-        public Guid? IdProduto { get; set; }
+        public Guid IdProduto { get; set; }
 
         [MinLength(6, ErrorMessage = "Informe no mínimo {1} caracteres.")]
         [MaxLength(50, ErrorMessage = "Informe no máximo {1} caracteres.")]

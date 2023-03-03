@@ -1,0 +1,3 @@
+﻿select * from CATEGORIA; 
+
+delete from CATEGORIA where IDCATEGORIA = '7E698391-FE7E-4CAB-B0DE-FBDF584B7669';
